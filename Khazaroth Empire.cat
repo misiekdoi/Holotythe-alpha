@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9048-dbed-3705-7a59" name="Khazaroth Empire" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>
+©2023 </readme>
+  <selectionEntries>
+    <selectionEntry id="60a7-8abe-a1c5-ee1e" name="Prospectors" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1ca3-1793-29a3-c65f" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6edd-3c90-dbc6-9c24" name="Prospectors" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ea-c6d7-2d8c-a93a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1a2-c692-377b-b9dd" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3ce9-7a44-3ec1-fac6" name="Prospectors" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="fd46-12de-dea3-48c4" name="Impet" hidden="false">
+              <description>Oddział podczas szarży posiada cechę A większą o 1</description>
+            </rule>
+            <rule id="1951-9a10-ec5d-a9b5" name="Instynkt Łowcy" hidden="false">
+              <description>Podczas walki z modelami pojedynczymi lub oddziałami z zasadą Kreatura nie odejmują kostek wynikających z różnicy między Siłą a Twardością</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink id="87d2-7b25-8fd4-d994" name="Seismic Crusher Pistol" hidden="false" collective="false" import="true" targetId="9c68-5ff6-a74d-2775" type="selectionEntry"/>
+            <entryLink id="317f-f59d-80d3-1662" name="Seismic Crusher Rifle" hidden="false" collective="false" import="true" targetId="a70b-3fd9-e3ea-58b9" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="66b9-7f31-a5a5-fd69" name="Laser Rock Melter" hidden="false" collective="false" import="true" targetId="a9fa-1ad9-a3b9-72e7" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7600-137d-d8b3-e11e" name="Rock Spliter Hand Axe" hidden="false" collective="false" import="true" targetId="3418-7f68-c221-585a" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="6.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c81d-d3d7-1b73-94f6" name="Surveyers" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="64c9-607e-d351-8adc" value="5.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64c9-607e-d351-8adc" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a5f0-c8cc-bc39-53f7" name="Surveyers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fd8-2fa5-75ac-88c1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c98-2928-89da-ff1b" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7b7d-2340-046e-13d0" name="Surveyers" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">5</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">42</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="26f6-644f-e0fa-97b1" name="Trucizna" hidden="false">
+              <description>Jeśli podczas walki wrogi oddział otrzymał ranę, podstawka z raną lub ranami jest zdejmowana. Zasada nie działa na modele pojedyncze</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="e30b-48a5-7527-7dcd" name="Wyostrzone Zmysły" hidden="false" targetId="b8ea-004d-8202-77a6" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="f7b5-5085-487d-04e1" name="Seismic Crusher Pistol" hidden="false" collective="false" import="true" targetId="9c68-5ff6-a74d-2775" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f832-1176-6db4-c4b2" name="Laser Rock Melter" hidden="false" collective="false" import="true" targetId="14db-68f2-f77b-5f4a" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c4db-afc6-6f90-86da" name="Auto Drill Carbine" hidden="false" collective="false" import="true" targetId="b0f1-deba-1970-ee6c" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="696e-fd0a-4cd5-8224" name="Drill Carbine" hidden="false" collective="false" import="true" targetId="c6bf-2715-d887-a175" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="20f0-7c9a-d8f8-e939" name="Seismic Crusher Rifle" hidden="false" collective="false" import="true" targetId="a70b-3fd9-e3ea-58b9" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a64-3638-9922-847b" name="Brawlers" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="fc0e-4987-bc10-a736" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4414-8f4a-1789-0fc3" name="Brawlers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14b3-8cfb-f533-7643" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd94-afbb-4e39-9b33" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f4e0-cc09-e3c8-22ec" name="Brawlers" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">6</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a01d-8827-7259-f021" name="Miażdżący Cios" hidden="false" targetId="8c60-8ad3-d241-afd1" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="c6aa-9c92-f7e1-b77e" name="Dig Power Gloves" hidden="false" collective="false" import="true" targetId="a9c4-c4c8-80cc-ce6d" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4ef7-5dd9-0416-0a3d" name="Rock Spliter Axe" hidden="false" collective="false" import="true" targetId="8bf1-0782-2f28-6ebd" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fb14-d55a-fe82-e4e0" name="Stone Smasher Hammer" hidden="false" collective="false" import="true" targetId="ce5a-651e-59a9-6090" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="6.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="22.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="068f-fe5f-c8ba-12a5" name="Iron Moles" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="2e35-457a-98e5-0422" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9d4b-f0e4-fccc-3687" name="Iron Moles" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb00-8fc9-1fef-503a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b56-5a09-e56b-0dd7" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="723d-eb6b-1c69-10a1" name="Iron Moles" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">5</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">2</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3214-64ce-e467-534c" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+            <infoLink id="c742-bf03-9767-4c5c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="e833-a2f2-66fc-cb3e" name="Rock Drill Claws" hidden="false" collective="false" import="true" targetId="8136-3281-2e36-ddcb" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="97ab-651b-9633-3eb5" name="Pair of Rock Drill Claws" hidden="false" collective="false" import="true" targetId="044e-829c-85e4-d1c9" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="abdb-29fb-a2b2-2446" name="Dig Power Gloves" hidden="false" collective="false" import="true" targetId="a9c4-c4c8-80cc-ce6d" type="selectionEntry"/>
+            <entryLink id="3cdb-e62f-fefd-b9cb" name="Very Big MotherFreaking Seismic Gun" hidden="false" collective="false" import="true" targetId="2835-5e5f-7e6a-7956" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9678-6ccf-0e16-e42d" name="Starforge Bulldozer" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="b918-170a-2200-08f5" name="Starforge Bulldozer" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc94-9ccd-edf2-8976" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b27f-802b-7d6f-b076" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="143a-9b65-46dc-837b" name="Starforge Bulldozer" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <comment>Vehicle, Transport (10)</comment>
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">8</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">310</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9923-e37c-cbd8-4b0c" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="2f66-8d1f-0c2e-120b" name="Atomic Piercer" hidden="false" collective="false" import="true" targetId="2b6c-3c72-319c-9ae3" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="588b-1643-1c0d-3226" name="Antimatter Ray" hidden="false" collective="false" import="true" targetId="1b44-df13-7e1e-b39d" type="selectionEntry"/>
+            <entryLink id="80fe-428d-e6b8-44fa" name="Gravity Wave Gun" hidden="false" collective="false" import="true" targetId="c1f6-4960-c04f-7df6" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2e4e-e911-ba70-a463" name="Laser Rock Melter" hidden="false" collective="false" import="true" targetId="14db-68f2-f77b-5f4a" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ddb5-67e3-22ac-962c" name="Particle Disruptor" hidden="false" collective="false" import="true" targetId="47ea-13ca-009f-9450" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3995-22f4-ee24-09cf" name="Ionazing Havey Flamer" hidden="false" collective="false" import="true" targetId="2e16-24be-494f-559f" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="123.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="18.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8997-380b-e496-8401" name="Oreseeker Crusier" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="60d6-3bdf-6279-a95b" name="Oreseeker Crusier" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6f5e-1285-4d64-1e79" name="Ryk" hidden="false">
+          <description>Raz w swojej turze Marmydon może wykonać rzut k6. Wynik 2 lub mniej oznacza, że każda wroga jednostka w promieniu 20 cm musi wykonać Test Paniki (4+) dla dwóch podstawek
+</description>
+        </rule>
+        <rule id="b10f-a2a0-f7cd-46a6" name="Gruba Skóra" hidden="false">
+          <description>Za każdą ranę zadaną temu modelowi można wykonać rzut na obronę Grubą Skórą. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
+        </rule>
+        <rule id="023d-ba9d-51e8-15de" name="Upadek molocha" hidden="false">
+          <description>Jeśli Marmydon straci ostatni punkt W, każdy oddział lub model pojedynczy, który dotyka jego podstawki, musi wykonać rzut 2k6. Wynik niższy niż LD oznacza, że otrzymuje k6+2 rany bez możliwości rzutu za pancerz lub obronę</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="d04f-fd32-3c0b-62f6" name="Atomic Piercer" hidden="false" collective="false" import="true" targetId="2b6c-3c72-319c-9ae3" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="12.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="dda1-4fd5-409e-b123" name="Antimatter Ray" hidden="false" collective="false" import="true" targetId="1b44-df13-7e1e-b39d" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="09d4-42c5-8053-da36" name="Gravity Wave Gun" hidden="false" collective="false" import="true" targetId="c1f6-4960-c04f-7df6" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="930a-c69a-6331-befe" name="Laser Rock Melter" hidden="false" collective="false" import="true" targetId="14db-68f2-f77b-5f4a" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="fefc-7165-f45e-750b" name="Particle Disruptor" hidden="false" collective="false" import="true" targetId="47ea-13ca-009f-9450" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7e0b-6732-872b-6cf8" name="Ionazing Havey Flamer" hidden="false" collective="false" import="true" targetId="2e16-24be-494f-559f" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="248.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d2c1-44a9-39c3-f4d3" name="Lord Excavator" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="958c-ec46-a625-6c9a" name="Lord Excavator" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d558-8f9d-c1e2-c763" name="The Great Operator" hidden="false">
+          <description>The Great Operator: While activated, Lord Excavator can grant a single action point to one friendly unit within 12&quot;. Target only units that haven&apos;t been activated this turn and the point can only be used for using a weapon.
+ 
+ </description>
+        </rule>
+        <rule id="2fac-8f76-9e88-67ff" name="Grand Command" hidden="false">
+          <description>Grand Command: At the start of the game, choose an objective marker. If any unit moves within range towards it to capture it for the first time and they need an extra 1&quot;-3&quot; to capture it. You may move up to 3&quot; to seize it</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="d70b-0028-9c3c-bae6" name="Rock Cutter Power Blade" hidden="false" collective="false" import="true" targetId="049b-0974-02f7-3360" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="8.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="5804-6505-73d4-df04" name="Seismic Crusher Pistol" hidden="false" collective="false" import="true" targetId="9c68-5ff6-a74d-2775" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="96.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fdf-6155-55d8-ff4d" name="Lord Excavator/toremove" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="dfaa-ab4d-0124-12bb" name="Generał" hidden="false" targetId="76f5-58f8-04aa-1914" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a632-9375-adc3-1269" name="Artefakty" hidden="false" collective="false" import="true" targetId="15b3-5ca4-ddb3-fc7d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="30.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="4347-ef14-de7b-3504" name="Gniew Kniei " hidden="false">
+      <description>W armii Gaeldor oddziały (ale nie modele pojedyncze) mogą zamienić każdą uzyskaną 1 podczas rzutu za ruch lub szarżę na wynik 4 </description>
+    </rule>
+  </rules>
+  <sharedRules>
+    <rule id="2260-b0ac-2aa6-bbbc" name="Zdrewnienie" hidden="false">
+      <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
+    </rule>
+  </sharedRules>
+</catalogue>

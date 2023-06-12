@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="4f19-b00c-17bc-3958" name="Outcasts and Renegades" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " authorUrl="www.DenOfImagination.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Test na produkcji</readme>
+  <selectionEntries>
+    <selectionEntry id="60a1-6f66-6ab3-54fc" name="Ogre" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="f7f4-2dc3-3e2c-727c" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ee21-3974-309b-8343" name="Ogre" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5725-b6a7-182e-0c02" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a965-365e-3a81-692e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="0888-5685-2556-9c4d" name="Ogre" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">7</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">5</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">6</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0fa1-ca82-5738-179b" name="Rozlew Krwi" hidden="false" targetId="5d77-9886-81ff-ad84" type="rule"/>
+            <infoLink id="dd26-568a-73ed-7114" name="Obrona Lekką Tarczą " hidden="false" targetId="9070-3277-af8a-e4fa" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="ae99-eaff-f5f4-049d" name="Heavy Laser Blaster" hidden="false" collective="false" import="true" targetId="418d-5cef-846e-2952" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ce79-aea1-4b83-3501" name="Combat Knife" hidden="false" collective="false" import="true" targetId="cb87-4b5d-dfff-8d63" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8fef-41be-0ade-72dc" name="Shock Maul" hidden="false" collective="false" import="true" targetId="ca62-e064-2725-b235" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a537-a877-4e6a-1d86" name="Meat Grinder" hidden="false" collective="false" import="true" targetId="c363-e816-d8ca-764e" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="32d9-bc53-c1f6-86bf" name="Blaster Cannon" hidden="false" collective="false" import="true" targetId="cf3c-ad32-8a47-715f" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="11.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f944-c5fc-31a2-2c1e" name="Marouders" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="42a4-3dec-d07a-f533" name="Marouders" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e2d-1e12-e209-4283" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bd3-3ac1-47bd-cb82" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="68fe-18f8-a5db-bc57" name="Marouder" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">6</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">6</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f8ca-ceec-0029-a4ce" name="Dzika Szarża " hidden="false">
+              <description>Podczas szarży oddział otrzymuje dodatkowy bonus +1 do S</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="c7f0-10ca-b955-6c68" name="Furia" hidden="false" targetId="b951-e170-9c36-9787" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="7ab6-72c6-a559-95ab" name="Laser Blaster" hidden="false" collective="false" import="true" targetId="5a60-36ac-58c5-9bbb" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d1ab-e85a-1968-7503" name="Combar Knife (M)" hidden="false" collective="false" import="true" targetId="f1b9-3cfd-b10a-fd2e" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="575c-e69e-5c1b-a0fd" name="Pistol" hidden="false" collective="false" import="true" targetId="d8a7-5032-f2c8-043b" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cd3b-058f-1e8f-1b6f" name="Melter" hidden="false" collective="false" import="true" targetId="6557-e7c9-b452-66bc" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7325-900d-8e2e-07c1" name="Flamer" hidden="false" collective="false" import="true" targetId="606f-5543-abcf-aceb" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a40c-f036-dfdb-5737" name="Devastation Team" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="2689-da00-209f-c135" name="Devastation Team" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b395-8016-11ef-9bbf" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d3a-43d1-3047-14ca" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="829c-a3eb-4532-4248" name="Devastation Team" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">5</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">6</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="bae1-f2cb-2f9e-4c4a" name="Straszliwe Obrażenia" hidden="false" targetId="05b0-8373-2d27-5168" type="rule"/>
+            <infoLink id="46e2-50e4-c942-9a1a" name="Furia" hidden="false" targetId="b951-e170-9c36-9787" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="77f2-8753-e044-8ecd" name="Heavy Laser Blaster" hidden="false" collective="false" import="true" targetId="418d-5cef-846e-2952" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4ce3-9bee-5bff-60f5" name="Heavy Melter" hidden="false" collective="false" import="true" targetId="e50c-d28c-82dc-c7c5" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="24.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd25-8770-fd6c-f643" name="Reaper Squad" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="71e9-3de9-61cc-1fa6" name="Reaper Squad" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a388-03ed-aa8a-d013" name="Tratowanie" hidden="false">
+          <description>Za każdy udany rzut podczas Testu Walki Standardowej może wykonać dodatkowy rzut k6. Dodatkowe udane rzuty nie generują kolejnych</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b8f6-7242-9f46-1971" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+        <infoLink id="3863-7baf-facb-e442" name="Monstrum" hidden="false" targetId="1446-e9eb-60e8-b494" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="46fc-3d42-ed7c-8d36" name="Dual Pistols" hidden="false" collective="false" import="true" targetId="7e16-2516-19a5-53db" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d943-2960-2890-de81" name="Combar Knife (M)" hidden="false" collective="false" import="true" targetId="f1b9-3cfd-b10a-fd2e" type="selectionEntry"/>
+        <entryLink id="2dee-9495-3631-1185" name="Laser Blaster" hidden="false" collective="false" import="true" targetId="5a60-36ac-58c5-9bbb" type="selectionEntry"/>
+        <entryLink id="5c2b-747c-7cbc-99f6" name="Melter" hidden="false" collective="false" import="true" targetId="6557-e7c9-b452-66bc" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="88.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="32fa-eb8d-1d13-5966" name="Urodzeni Wojownicy" hidden="false">
+      <description>Armia Vaendral może wykonać przerzut wyniku 1 lub 6 podczas Rzutu za Aktywację</description>
+    </rule>
+  </rules>
+  <sharedRules>
+    <rule id="5d77-9886-81ff-ad84" name="Rozlew Krwi" hidden="false">
+      <description>Oddział może wykonać przerzut wszystkich nieudanych rzutów podczas Testu Ranienia</description>
+    </rule>
+    <rule id="b951-e170-9c36-9787" name="Furia" hidden="false">
+      <description>Podczas szarży oddział otrzymuje 2 dodatkowe ataki do puli</description>
+    </rule>
+    <rule id="9070-3277-af8a-e4fa" name="Obrona Lekką Tarczą " hidden="false">
+      <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę lekką tarczą. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
+    </rule>
+  </sharedRules>
+</catalogue>

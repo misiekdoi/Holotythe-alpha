@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8110-2ed0-8275-a6b7" name="Hive Kelt" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>
+    
+    ©2023</readme>
+  <selectionEntries>
+    <selectionEntry id="b1fb-a411-1a6d-1ac6" name="Hive Runner" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c98c-0a59-6fad-0e83" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1e75-3faf-d5e4-b158" name="Hive Runner" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="8819-791e-9457-1fc2" name="Hive Runner" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a183-951c-b318-8611" name="Żelazna Dyscyplina" hidden="false">
+              <description>Rozkazy wydawane Reptilianom mogą być przerzucone, a 1 oznacza darmowy rozkaz</description>
+            </rule>
+            <rule id="1bd7-c539-642e-c9b2" name="Wyczuleni" hidden="false">
+              <description>Mogą otrzymywać rozkazy będąc w odległości do 40 cm od Generała</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink id="f37c-a1c8-3f57-48c6" name="Runner Pair of Claws" hidden="false" collective="false" import="true" targetId="e6c8-41cc-b9c2-0f75" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fb5a-d32b-5c90-a9a9" name="Runner Pair of Talons" hidden="false" collective="false" import="true" targetId="d327-fd52-32d7-78da" type="selectionEntry"/>
+            <entryLink id="9f22-5909-5871-6554" name="Runner Tentacle" hidden="false" collective="false" import="true" targetId="9b91-2dc4-03a6-4ad8" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4288-dcbe-3cea-04d3" name=" Abductor" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="5783-8429-5a7c-def8" name=" Abductor" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a0-090d-0f86-3bd1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a315-8411-02e2-a73f" name=" Abductor" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f194-67b9-c65e-6006" name="Wola Walki " hidden="false">
+              <description>Jeśli oddział Repsolian zniszczył oddział wroga, może wykonać ruch do 10 cm zamiast do 5 cm</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink id="4a44-8cdd-c65a-ac7b" name="Abductor Pair of Talons" hidden="false" collective="false" import="true" targetId="c8c3-5811-b547-3bf8" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e055-72cd-3fc8-20c7" name="Pair of Mantis Claws" hidden="false" collective="false" import="true" targetId="9688-4c17-4679-0f68" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dfcb-745d-fb84-e4c4" name="Ultrafex" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1842-ae17-76bf-3353" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="05ac-6cec-7b69-86b4" name="Ultrafex" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4889-ba31-952c-e101" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef59-6216-ec4a-86b0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9533-088e-6cee-74e3" name="Ultrafex" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">7</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e5be-8ae3-caee-595f" name="Gadzi Ruch" hidden="false">
+              <description>Slagory mogą wykonać ruch lub szarżę przez jednostki wroga lub swoje, jeśli ich ruch zakończy się poza oddziałem, przez który przechodziły</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="d6ab-3e54-468a-6bda" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="c65e-e8f1-57cc-8a35" name="Raming Head" hidden="false" collective="false" import="true" targetId="aa9d-cd2c-4424-f60a" type="selectionEntry"/>
+            <entryLink id="9067-72e1-6fd1-fd4a" name="Ultrafex Pair of Claws" hidden="false" collective="false" import="true" targetId="a422-e40b-5cef-2b01" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1e20-ba3e-78f7-751c" name="Ultrafex Pair of Scyths" hidden="false" collective="false" import="true" targetId="f79d-495e-6465-4eef" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3af6-e7a9-f29d-e67a" name=" Sky Invader" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2834-6e1d-2ec2-946b" name=" Sky Invader" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">24</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4f1e-a6ff-e8ba-4a03" name="Pierwotny Szał " hidden="false">
+          <description>Podczas szarży Desauros musi wyko nać test k6, żeby sprawdzić, czy wpadnie w szał. Wynik 2 lub mniej oznacza, że Desauros zyskuje +3 Ataki</description>
+        </rule>
+        <rule id="fea6-ffa8-fa18-c52d" name="Grobowy Ołtarz " hidden="false">
+          <description>Za każdą ranę zadaną przeciwnikowi w wyniku ataku Desaurosa z Grobowym Ołtarzem, Desauros zyskuje 1 punkt W. Desauros może posiadać max. 12 punktów W</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="af28-595d-9265-a540" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d1be-6786-dbe2-c7fd" name="New CategoryLink" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7031-08de-9531-4506" name="Invader Pair of Chitin Swords" hidden="false" collective="false" import="true" targetId="8d37-a636-b814-a2f7" type="selectionEntry"/>
+        <entryLink id="bb16-5652-c340-c6e6" name="Invader Pair of Claws" hidden="false" collective="false" import="true" targetId="6e2a-1285-1185-f25f" type="selectionEntry"/>
+        <entryLink id="0c9e-ebaf-8c79-b592" name="Invader Pair of Talons" hidden="false" collective="false" import="true" targetId="2687-6ab7-272b-5381" type="selectionEntry"/>
+        <entryLink id="f9f9-acd7-738b-28fb" name="Invader Tentacle" hidden="false" collective="false" import="true" targetId="56b7-3876-be84-2dc5" type="selectionEntry"/>
+        <entryLink id="9df2-a76b-d021-be5f" name="Toxic Spit Gun" hidden="false" collective="false" import="true" targetId="daa1-caf8-5109-99bc" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9e01-5864-1c90-308d" name="Great Invader" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7fd1-4cd9-4ee6-c307" name="Great Invader" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5793-94a7-da67-beeb" name="Żywa Katapulta" hidden="false">
+          <description>Raz na cykl Forgon może wykonać splunięcie do niezaangażowanego w walkę wroga na odległość 20 cm. Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że wrogi oddział musi wykonać Test Paniki dla 3 podstawek</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3c46-9c3b-1756-4742" name="Czempion" hidden="false" targetId="cc08-ee1e-0c3d-24d0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0edf-2d40-a9db-9e86" name="Invader Pair of Talons" hidden="false" collective="false" import="true" targetId="2687-6ab7-272b-5381" type="selectionEntry"/>
+        <entryLink id="48d2-4ebf-608e-d71d" name="Invader Pair of Claws" hidden="false" collective="false" import="true" targetId="6e2a-1285-1185-f25f" type="selectionEntry"/>
+        <entryLink id="c113-1fbe-dfeb-e090" name="Invader Pair of Chitin Swords" hidden="false" collective="false" import="true" targetId="8d37-a636-b814-a2f7" type="selectionEntry"/>
+        <entryLink id="b0b8-291c-c4d1-e2b7" name="Toxic Spit Gun" hidden="false" collective="false" import="true" targetId="daa1-caf8-5109-99bc" type="selectionEntry"/>
+        <entryLink id="d8d9-a4cf-ad3c-81bb" name="Invader Tentacle" hidden="false" collective="false" import="true" targetId="56b7-3876-be84-2dc5" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="35.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="1aeb-564a-03e4-60aa" name="Zwiastujący Udrękę " hidden="false">
+      <description>Generał Sorgax otrzymuje możliwość wydania jednego dodatkowego darmowego rozkazu w cyklu, jeśli przeciwnik poniósł podczas bitwy określone straty. Sprawdź, ile przeciwnik stracił dotychczas Punktów Krwi i porównaj z tabelą, by dowiedzieć się, jaki musisz uzyskać wynik, aby rozkaz był udany. 6PK 1-, 12PK 2-, 24PK 3-</description>
+    </rule>
+  </rules>
+</catalogue>

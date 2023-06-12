@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="42fc-7ea3-31ea-a52a" name="Void Blessed" revision="1" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
+
+©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
+  <selectionEntries>
+    <selectionEntry id="323d-337d-8b95-46f2" name="New Sons" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7417-b1ff-1de6-5f5f" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="547c-cad5-09f0-9ca9" name="New Sons" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="657b-8a72-7922-d60e" name="New Sons" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">8</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="68d5-65c4-9051-aaca" name="Blessing" hidden="false" targetId="e7c9-8b3d-a89d-5ef2" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="cef0-9dde-04b9-b299" name="Doomfury Rifle" hidden="false" collective="false" import="true" targetId="2c5e-98d7-a60d-4ef9" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="29ad-6828-2da3-bc3d" name="Doomfury Pistol" hidden="false" collective="false" import="true" targetId="1b7e-29ad-1e8f-649e" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9ee0-f13b-d6e7-6a36" name="Gore Sword" hidden="false" collective="false" import="true" targetId="b3c9-ef73-9a82-91c7" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8c9-bec0-176d-e0a2" name="Forsaken" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="d803-4d09-0c3a-ccf3" value="5.0">
+          <conditions>
+            <condition field="limit::f85b-9abe-e3c6-3699" scope="roster" value="1500.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d803-4d09-0c3a-ccf3" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3b64-265b-ae41-04a6" name="Forsaken" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f0d-e35a-d0c6-2011" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8c2-1053-37cb-f38f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8a45-a6ff-e86c-2389" name="Forsaken" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">2</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6d24-5f79-7b0e-c5b2" name="Blessing" hidden="false" targetId="e7c9-8b3d-a89d-5ef2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="21.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db42-4886-670d-1baa" name="Rage Sons" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="8494-0fcf-1769-635b" name="Rage Sons" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9540-b753-697e-ee14" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247e-ce13-0d4f-d450" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3c07-8f10-3654-4c09" name="Rage Sons" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">8</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="6c77-7cf1-facb-2cec" name="Precyzyjne Uderzenie " hidden="false">
+              <description>Oddział może wykonać przerzut wszystkich nieudanych rzutów w Teście WS</description>
+            </rule>
+            <rule id="2672-1728-b2b7-a8b0" name="Obrona Lekką Tarczą " hidden="false">
+              <description>Za każdą ranę zadaną temu oddziałowi można wykonać rzut na obronę lekką tarczą. Wykonaj rzut k6. Każda 1 oznacza anulowaną ranę</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ef4-ce1f-968d-e1e3" name="Jaggernought" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="c208-fe49-65b4-cb43" name="Jaggernought" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9932-99e6-740d-904d" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82dc-544c-b34f-8754" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="27a5-aead-aa87-1bd3" name="Jaggernought" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">10</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">5</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9323-46fe-e83c-b9b8" name="Magiczne Runy " hidden="false">
+              <description>Podczas Testu Modlitwy uzyskana suma 3 lub mniej oznacza darmową modlitwę (pula modlitw nie zmniejsza się)</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="19cf-c757-6576-7d4a" name="Blessing" hidden="false" targetId="e7c9-8b3d-a89d-5ef2" type="rule"/>
+            <infoLink id="649f-177c-3b87-d89c" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91a9-41ec-a199-b53a" name="Perfection" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="82d8-5c9e-16fe-ef5f" name="Perfection" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">24</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7c6b-1354-8aca-bd84" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b53d-7dd0-eb99-c420" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f672-9634-c3e7-a7b5" name="Wrist Mounted Assault Rifle" hidden="false" collective="false" import="true" targetId="38c4-e476-9f55-4ef5" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="43.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8a0-64ad-88ad-7c2d" name="Infernal Rager" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="00c0-f83a-1dd0-0ca5" name="Infernal Rager" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a184-8872-a737-6e24" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2e-a28f-8d5a-5165" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="46e7-258f-bcd8-c1e5" name="Infernal Rager" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">4</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="5f5f-bf96-0314-aa2e" name="Zasadzka" hidden="false">
+              <description>Oddział Sasquatchy może wykonać darmowy ruch przed bitwą. Dodatkowo wróg podczas szarży na Sasquatche nie może korzystać z bonusów do szarży oraz niezależnych</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink id="8a44-17b5-5194-bf54" name="Mutated Claws" hidden="false" collective="false" import="true" targetId="9efd-cd92-810e-0331" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32d6-2f9f-3185-e521" name="Father" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="6b18-e540-6d37-4ebd" name="Father" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="226f-2ca6-8c38-f5cd" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aba-e6d0-a8a0-fb56" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="bcb4-fdab-f06c-708c" name="Father" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">5</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="75b7-3395-0734-5280" name="Wrist Mounted Assault Rifle" hidden="false" collective="false" import="true" targetId="38c4-e476-9f55-4ef5" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbbd-718a-2160-1777" name="Infernal Stalker" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4f08-e4c1-026b-4c31" name="Infernal Stalker" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="92b1-1250-bb2f-4e24" name="Tratowanie" hidden="false">
+          <description>Za każdy udany rzut podczas Testu Walki Standardowej może wykonać dodatkowy rzut k6. Dodatkowe udane rzuty nie generują kolejnych</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9ea4-aba1-914d-7ed2" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+        <infoLink id="8b46-aee4-21e3-f0a5" name="Monstrum" hidden="false" targetId="1446-e9eb-60e8-b494" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="88.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="c385-a835-8682-c266" name="Wierni Bogom" hidden="false">
+      <description>Oddziały Podstawowe i Elitarne w armii Dirandis mogą wykonać przerzut nieudanych Testów Modlitwy</description>
+    </rule>
+  </rules>
+  <sharedRules>
+    <rule id="e7c9-8b3d-a89d-5ef2" name="Blessing" hidden="false">
+      <description>Blessing: Every model in the unit takes a Void possesion test. On a roll of 1 he is taken over by the void and kill be his commrads. Add + 1 to Ac rolls for all hits this turn.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="52a7-61d2-c8e9-2f28" name="Void Horror" revision="1" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com " library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>
+©2023</readme>
+  <publications>
+    <publication id="8a1e-17a3-9c24-4c16" name="Purple Warlock 2" shortName="SPCPW002" publisher="Purple Warlock 2" publicationDate="Luty 2023" publisherUrl="https://www.spellcrow.com/purple-warlock-issue-2-miniature-hobby-magazine-pdf-p-1065.html"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="90c9-c990-4396-8c48" name="Void Stomper" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4445-3a03-48c9-cc5b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cc8f-8b0b-12c8-7268" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d3e4-de91-8a92-a60d" name="Void Stomper" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90fe-7c72-8613-709b" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="138f-b587-93c9-7c05" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="54f8-ea16-6eed-04f4" name="Void Stomper" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">10</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">0</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">5</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b096-cc18-43cd-2f1d" name="Ciężki Pancerz" hidden="false" targetId="afaa-9834-193d-24c6" type="rule"/>
+            <infoLink id="3e76-bb11-4b32-4b8a" name="Nieczułość" hidden="false" targetId="5c21-fd42-df0f-4653" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="e876-5860-b261-4a3b" name="Crushing Limbs" hidden="false" collective="false" import="true" targetId="57a5-9dc8-a2a3-2d83" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0d2c-3581-065d-5856" name="Void Vomit" hidden="false" collective="false" import="true" targetId="db9d-96cb-7df8-d27a" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="27.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="427d-4f9c-5b8a-b381" name="Void Eye" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ae3b-47c3-beda-a18e" name="Void Eye" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">10</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a7fc-e165-532e-ce9f" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f191-9be8-aca7-3e54" name="Spike Tentacles" hidden="false" collective="false" import="true" targetId="5c6e-317e-bf56-bd00" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a4d6-6230-a9c6-0d7b" name="Void Flame" hidden="false" collective="false" import="true" targetId="ee5b-f6be-135d-d2b8" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="52.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10bc-ab86-1c2c-d78c" name="Void Watcher" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="34c6-84f4-34ea-19ca" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3ee6-74eb-fe9a-3345" name="Void Watcher" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="383b-cdcd-d664-218c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54ea-3f43-d247-932d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="862b-00b9-34f5-1544" name="Void Watcher" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">8</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2775-9b50-9783-168b" name="Strach" hidden="false" targetId="b756-0f19-9c03-7378" type="rule"/>
+            <infoLink id="35f7-8717-3f13-6fff" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="4656-4ba1-03c8-0476" name="Void Ray" hidden="false" collective="false" import="true" targetId="13a5-060a-f3d2-9e8d" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7255-50a4-1667-4ff0" name="Massive Tentacle" hidden="false" collective="false" import="true" targetId="9875-a4b0-db53-103f" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0db1-6e47-bc98-906f" name="Void Flame Barage" hidden="false" collective="false" import="true" targetId="2bd4-caff-8069-47ec" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="19.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30f1-be2e-64ad-40c6" name="Void Titan" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="7899-f11f-9702-2e93" name="Void Titan" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e24-64f2-ed87-e099" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2356-efa3-e240-6ab0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="7823-330a-550f-e156" name="Void Titan" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">10</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">10</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">0</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">5</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f675-bb2b-12bd-4b18" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="899b-5ffb-f334-ed4e" name="Giant feet" hidden="false" collective="false" import="true" targetId="7bf7-fccb-c386-3fd6" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a1e-11ba-3a35-c908" name="Void Avatar" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e4ae-5e71-9701-186f" name="New CategoryLink" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="668e-ff9a-97cd-8a0e" name="Void Avatar" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0c7-b657-d3b2-5532" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4adf-7ab1-4a09-f4d0" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="b206-c0fd-0642-a93e" name="Void Avatar" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">10</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">6</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">0</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">5</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="4fb8-2c21-084f-e6b3" name="Ciężki Pancerz" hidden="false" targetId="afaa-9834-193d-24c6" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="cf35-fa1f-ad57-54aa" name="Phaze Scythe" hidden="false" collective="false" import="true" targetId="8468-c9fc-d175-4637" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a567-2fdb-b29e-39c0" name="Void Crawlers" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="10d9-e2e2-d430-00a8" name="Void Crawlers" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5a-ac98-517c-4c15" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3830-1229-3386-2f4d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="be98-58e5-961b-4df4" name="Void Crawlers" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">10</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="af93-b30e-1dcf-7fad" name="Consume Holotythe" hidden="false">
+              <description>Consume Holotythe: When Void Brute kill a model with Holotythe restor as many wounds as the amount of Holotythe power that was slaine. This brings back dead Bruts to life.</description>
+            </rule>
+          </rules>
+          <entryLinks>
+            <entryLink id="1544-2d83-f0f2-c4d7" name="Horror Claws" hidden="false" collective="false" import="true" targetId="c704-f242-5a9c-00ff" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="23.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a9b-0250-04bd-3e83" name="Void Speaker" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="819b-f945-9246-78ed" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f3-ac5c-fd09-a625" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="81da-fe65-aea6-cf84" name="Void Speaker" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">8</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e45a-4e25-b856-385d" name="Potępieńcy" hidden="false">
+          <description>Po zniszczeniu oddział Potępieńców nie jest wliczany do straconych Punktów Krwi</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8468-3dea-33a7-05e4" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="39a4-47de-00d0-182f" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="aebe-ec8f-9e5b-d731" name="Phaze Sickle" hidden="false" collective="false" import="true" targetId="7bf9-0961-2044-42c3" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="3.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bedb-9c58-e2fd-df87" name="Void Brute" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="980c-1c0f-5927-0483" name="Void Brute" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c428-6597-3269-9273" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="827a-0b84-30ac-804e" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="2f59-4047-c677-ba61" name="Void Brute" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">5</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">4</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">5</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">0</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="6a30-ca56-5c52-e309" name="Consume Holotythe" hidden="false">
+              <description>Consume Holotythe: When Void Brute kill a model with Holotythe restor as many wounds as the amount of Holotythe power that was slaine. This brings back dead Bruts to life.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="e296-c138-0176-36f3" name="Zniewoleni" hidden="false" targetId="2745-44fc-dd08-3bad" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="7087-708e-356d-bc8a" name="Mutated Arms" hidden="false" collective="false" import="true" targetId="0d94-f6ee-5fba-fa3d" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule id="afaa-9834-193d-24c6" name="Ciężki Pancerz" hidden="false">
+      <description>Każde obrażenie, które zostało zadane temu oddziałowi, może być zniwelowane przez masywny pancerz. Wykonaj rzut k6. Wynik 2 lub mniej oznacza, że obrażenie zostało zniwelowane</description>
+    </rule>
+  </sharedRules>
+</catalogue>

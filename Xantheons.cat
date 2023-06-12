@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="18a4-315e-9b1d-bd2a" name="Xantheons" revision="2" battleScribeVersion="2.03" authorName="Den Of Imagination" authorContact="misiek.doi@gmail.com" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>
+    ©2023 </readme>
+  <selectionEntries>
+    <selectionEntry id="1846-02e4-d7ed-4645" name="Xantheon Defence Drone" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="c6dd-45f2-a10c-b51a" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="433f-6f00-d56d-ae1d" name="Xantheon Defence Drone" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21c-e810-7fbe-fd84" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8f-0f64-d22f-0318" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9439-4ec7-24b3-7fcb" name="Xantheon Defence Drone" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">12</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">3</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">1</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">2</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">21</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0db7-9b5b-4db7-e42a" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="6116-34ad-e6b8-0cc3" name="Holotythe Zap" hidden="false" collective="false" import="true" targetId="91cb-1c9a-9ff5-c74d" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d471-4770-cc77-ac22" name="Xantheon Dropship" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntries>
+        <selectionEntry id="e4e2-8899-6777-8b4f" name="Xantheon Dropship" hidden="false" collective="false" import="true" type="unit">
+          <selectionEntries>
+            <selectionEntry id="45a7-cda0-cde6-e304" name=" Xantheon Dropship" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e2-9b9a-9133-89e6" type="min"/>
+                <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c9-b3fd-7dde-30f4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="deb8-a9fd-d057-1327" name=" Xantheon Dropship" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+                  <characteristics>
+                    <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+                    <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">8</characteristic>
+                    <characteristic name="HP" typeId="d333-1828-755a-c589">6</characteristic>
+                    <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
+                    <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+                    <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                    <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="3ad9-4ef1-436c-f1d4" name="Złoty Pancerz" hidden="false" targetId="02a4-8aa0-b119-a834" type="rule"/>
+                <infoLink id="4b6b-52e4-d916-12ee" name="Zaciekłość" hidden="false" targetId="f593-c25f-aa8a-bbc8" type="rule"/>
+                <infoLink id="d503-1884-2a12-2306" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="84de-945b-7e31-8072" name="Twin Holotythe Blaster" hidden="false" collective="false" import="true" targetId="7740-051f-da38-8c49" type="selectionEntry">
+                  <costs>
+                    <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="16.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac50-6be2-ff6f-6389" name="Xantheon Tank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="092c-59cc-15ac-bb07" name="Xantheon Tank" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">14</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">8</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">8</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">1</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="aa53-9a9f-db0d-1182" name="Pierwotny Szał " hidden="false">
+          <description>Podczas szarży Desauros musi wykonać test k6, żeby sprawdzić, czy wpadnie w szał. Wynik 2 lub mniej oznacza, że Desauros zyskuje +3 Ataki
+          </description>
+        </rule>
+        <rule id="8564-e5af-ef12-e047" name="Słoneczny Monolit " hidden="false">
+          <description>Za każdy stracony punkt W Desaurosa podczas walki wykonaj rzut k6. Wynik 2 lub mniej oznacza, że wybrany oddział lub model pojedynczy w promieniu 20 cm otrzymuje 2 rany</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="de5d-3a10-1092-db63" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="497e-d05d-22df-3dd0" name="New CategoryLink" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c74f-f2b5-4590-0550" name="Holotythe Cannon" hidden="false" collective="false" import="true" targetId="178c-da8a-a1a6-6325" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="3c45-8bd7-c099-c6fc" name="Twin Holotythe Heavy Blaster" hidden="false" collective="false" import="true" targetId="9d66-2fbd-dc16-325a" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="68.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e67-6f8c-2652-1c58" name="Xantheon Light Seer" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="0205-53ed-5b9f-cbf2" name="Oddziały Rzadkie" hidden="false" targetId="70ac-247a-953d-1088" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7663-2820-a0e1-2bda" name="Xantheon Light Seer" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="set" field="name" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e43-5231-8589-b047" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c9-3101-e4af-6261" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="27a3-a32f-6501-b828" name="Xantheon Light Seer" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">9</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">4</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">3</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="ada9-f84e-f3ed-ce2c" name="Rozszarpanie" hidden="false">
+              <description>Oddział podczas szarży posiada WS 4</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="f84a-8c2b-ab82-8a41" name="Nieczułość" hidden="false" targetId="5c21-fd42-df0f-4653" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08cc-8166-1dae-3665" name=" Xantheon Sentry" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="93c4-57be-dafb-91f9" name=" Xantheon Sentry" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+          <characteristics>
+            <characteristic name="M" typeId="93fa-4500-7c4e-a44c">16</characteristic>
+            <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">7</characteristic>
+            <characteristic name="HP" typeId="d333-1828-755a-c589">7</characteristic>
+            <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1</characteristic>
+            <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+            <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+            <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9de9-3a58-8639-e3b4" name="Żywa Katapulta" hidden="false">
+          <description>Raz na cykl Forgon może wykonać splunięcie do niezaangażowanego w walkę wroga na odległość 20 cm. Wykonaj rzut k6. Wynik 3 lub mniej oznacza, że wrogi oddział musi wykonać Test Paniki dla 3 podstawek</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink id="1900-ed31-2ea3-f1aa" name="Leg Blades" hidden="false" collective="false" import="true" targetId="18dd-60a0-0d95-5dd3" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="3acc-24b0-aedd-6b84" name="Holotythe Beam" hidden="false" collective="false" import="true" targetId="fc90-0331-a047-512b" type="selectionEntry">
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05f0-2016-9e96-73a6" name="Xantheon Brother" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4d56-10e5-3174-ffcc" name="Oddziały Podstawowe" hidden="false" targetId="cf53-8f98-e5aa-f320" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fce0-f0d7-4f3f-c061" name="Xantheon Brother" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca06-ad0c-cec1-5a53" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6238-fee5-03fa-0385" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="153e-efd1-b55f-29e2" name="Xantheon Brother" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
+              <characteristics>
+                <characteristic name="M" typeId="93fa-4500-7c4e-a44c">9</characteristic>
+                <characteristic name="T" typeId="a9c9-ec0c-65ad-1dc0">5</characteristic>
+                <characteristic name="HP" typeId="d333-1828-755a-c589">3</characteristic>
+                <characteristic name="Asv" typeId="f957-7f6c-4fcc-ef66">1+</characteristic>
+                <characteristic name="AP" typeId="b6c9-4b7e-33e0-6aca">2</characteristic>
+                <characteristic name="Dsv" typeId="395a-f9df-359b-774c">0</characteristic>
+                <characteristic name="HC" typeId="1aef-9fb8-6d60-bcdb">1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="f192-2351-72ee-72c8" name="Wierni" hidden="false" targetId="e040-833c-caec-4b65" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="c578-e549-9b7c-d74c" name="Holotythe Dagger" hidden="false" collective="false" import="true" targetId="492a-1916-e477-02e9" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9fcd-110d-ab97-adc8" name="Holotythe Blade" hidden="false" collective="false" import="true" targetId="6509-eb35-2315-6bc9" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="60fe-fee5-d5ac-5e88" name="Holotythe Hammer" hidden="false" collective="false" import="true" targetId="08ef-98c6-3568-47ba" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0be4-3793-4a30-ed0a" name="Holotythe Spear" hidden="false" collective="false" import="true" targetId="f1cd-ea55-309c-6794" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b3fd-fbfd-0ea1-d11e" name="Holotythe Blaster" hidden="false" collective="false" import="true" targetId="09f1-65ac-09fb-9bd3" type="selectionEntry"/>
+            <entryLink id="01c5-bd88-9a01-c0c3" name="Holotythe Heavy Blaster" hidden="false" collective="false" import="true" targetId="9499-4ec8-df07-e4f5" type="selectionEntry">
+              <costs>
+                <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="601c-a52e-ac02-0c0d" name="Gorąca Krew " hidden="false">
+      <description>Xantheoni są super i mogą używać Holotytu.</description>
+    </rule>
+  </rules>
+  <sharedRules>
+    <rule id="02a4-8aa0-b119-a834" name="Złoty Pancerz" hidden="false">
+      <description>Każde obrażenie, które zostało zadane temu oddziałowi, może być zniwelowane przez niezwykły pancerz. Wykonaj rzut k6. Wynik 2 lub mniej oznacza, że obrażenie zostało zniwelowane</description>
+    </rule>
+  </sharedRules>
+</catalogue>
